@@ -90,6 +90,7 @@ Memory servers exposed through the Model Context Protocol. Client support depend
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) - MIT local stdio MCP memory server that gives an agent associative recall over a folder of markdown notes: vector retrieval for entry points, hand-curated wikilinks as the graph, and cross-encoder rerank, with retrieval A/B telemetry in SQLite, plus a Claude Code Stop hook that writes a per-turn ledger to SQLite without LLM calls.
 - [Synapse](https://github.com/anshulyadav1976/synapse) - MIT local stdio MCP memory server that stores imported history, linked wiki pages, and human-approved agent notes as Markdown with a disposable SQLite FTS5 and graph index.
 - [Throughline](https://getthroughline.ai/) - Hosted MCP service for persistent AI identity and memory across supported clients, with MIT-licensed Claude Code and Codex plugins and verifiable history exports.
+- [VibeDesk](https://github.com/fxd-gif/vibedesk) - MIT-licensed Windows desktop app for Claude Code whose bundled local stdio MCP server keeps Obsidian-compatible Markdown notes with [[links]]: project notes live in `.vibedesk/brain` inside the repository, while personal notes live in the app's user-data directory and apply across projects; with tools to search, read, write, relate and forget notes; the server only runs while the app is running.
 
 ## Benchmarks and evaluation
 
